@@ -1,1 +1,30 @@
+/* Global variables */
 
+:root {
+    --main-background: #ffffff;
+    --primary-color: #e40913;
+    --secondary-color: #e21f1c;
+    --tertiary-color: #da363f;
+    --quaternary-color: #e2001a;
+    --font-color: #6a6a6a;
+    --secondary-font-color: #e40913;
+    --footer-background-color: #ffffff;
+  
+    --main-font: "Noto Serif", serif;
+    --secondary-font: "Niconne", cursive;
+  }
+  
+  /* Clearfix */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+  }
+  
+  body {
+    background: var(--main-background);
+  }
+  
+  /* Header */
