@@ -1,0 +1,96 @@
+/* Imports */
+
+@import "../../index.css";
+
+/* Subpage Kontakt mobile body */
+
+.subpageMobileKontakt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.subpageMobileHeaderTitle {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 0 15px;
+}
+
+.subpageMobileKontaktForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.subpageMobileKontaktFormInput,
+.subpageMobileKontaktFormInputText {
+    border: 1px solid var(--primary-color);
+    margin: 5px 0;
+    cursor: text;
+    border-radius: 22px;
+    width: 100%;
+    padding: 10px;
+}
+
+.subpageMobileKontaktFormInputText {
+    padding-bottom: 70px;
+}
+
+.subpageMobileKontaktFormRequired {
+    color: var(--font-color);
+    font-size: 0.75em;
+    padding-bottom: 15px;
+}
+
+.subpageMobileKontaktCheckbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.subpageMobileKontaktCheckboxText {
+    padding-left: 5px;
+    font-size: 0.75em;
+}
+
+.subpageMobileHeaderSmallTitle {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    padding: 0 15px;
+}
+
+.subpageMobileKontakt {
+    line-height: 20px;
+    font-size: 0.9em;
+    color: var(--font-color);
+}
+
+.subpageMobileSend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.subpageMobileButtons {
+    background-color: var(--primary-color);
+    border-radius: 0.25rem;
+    padding: 5px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.subpageMobileButtonText {
+    color: var(--main-background);
+    text-decoration: none;
+    font-size: 1em;
+}
