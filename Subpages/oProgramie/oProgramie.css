@@ -1,0 +1,24 @@
+/* Imports */
+
+@import "../../index.css";
+
+/* Subpage oProgramie mobile body */
+
+.oProgramieMobileBody {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oProgramieMobileTitle {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 0 0 15px 0;
+}
+
+.oProgramieMobileDescrpition {
+    line-height: 20pt;
+}
