@@ -66,3 +66,50 @@
       text-decoration: none;
       color: var(--font-color);
   }
+
+  /* Body */
+
+  .mainMobileBody {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1em;
+  }
+
+  .mainMobileBodyUnlogged {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainMobileBodyInfo {
+      color: var(--primary-color);
+      font-size: 1em;
+  }
+
+  .mainMobileBodyAdditionalInfo {
+      color: var(--font-color);
+      text-align: center;
+      padding: 1em;
+  }
+
+  .mainMobileUnloggedLogin {
+      display: inline-block;
+      background-color: var(--primary-color);
+      border-radius: 0.25rem;
+      padding: 5px 18px;
+      border-radius: 25px;
+  }
+
+  .mainMobileUnloggedButtonLogin {
+      color: var(--main-background);
+      text-decoration: none;
+      font-size: 1em;
+  }
+
+  .mainMobileUnloggedButtonSignin {
+      text-decoration: none;
+      color: var(--font-color);
+  }
