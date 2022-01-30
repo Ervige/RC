@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.oProgramieMobileTitle {
+.subpageMobileHeaderTitle {
     color: var(--primary-color);
     display: flex;
     justify-content: center;
