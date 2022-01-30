@@ -28,3 +28,41 @@
   }
   
   /* Header */
+
+
+  .mainMobileHeader {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+  }
+
+  .mainMobileHeaderLogos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .mainMobileHeaderRoyalCanin {
+      border-right: 1px solid #da363f;
+  }
+
+  .mainMobileHeaderUnlogged {
+      border-bottom: 1px solid var(--font-color);
+  }
+
+  .mainMobileHeaderUnloggedButtons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;   
+    list-style: none; 
+    padding: 1em;
+    color: var(--font-color);
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  .mainMobileHeaderButtonLink {
+      text-decoration: none;
+      color: var(--font-color);
+  }
