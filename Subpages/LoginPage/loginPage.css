@@ -1,0 +1,29 @@
+/* Imports */
+
+@import "../../index.css";
+
+/* Subpage loginPage mobile header */
+
+ /* Header */
+
+
+ .subpageMobileHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.subpageMobileHeaderLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Subpage loginPage mobile body */
+
+.subpageLoginPageLogin {
+    display: flex;
+    justify-content: centerx;
+}
